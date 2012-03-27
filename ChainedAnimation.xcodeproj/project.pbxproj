@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFDB19BB152264AC00B79CF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDB19BA152264AC00B79CF0 /* UIKit.framework */; };
+		AFDB19BD152264AC00B79CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDB19BC152264AC00B79CF0 /* Foundation.framework */; };
+		AFDB19BF152264AC00B79CF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDB19BE152264AC00B79CF0 /* CoreGraphics.framework */; };
+		AFDB19E3152264EC00B79CF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB19D9152264EC00B79CF0 /* AppDelegate.m */; };
+		AFDB19E5152264EC00B79CF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFDB19DC152264EC00B79CF0 /* InfoPlist.strings */; };
+		AFDB19E6152264EC00B79CF0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFDB19DE152264EC00B79CF0 /* ViewController.xib */; };
+		AFDB19E7152264EC00B79CF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB19E0152264EC00B79CF0 /* main.m */; };
+		AFDB19E8152264EC00B79CF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB19E2152264EC00B79CF0 /* ViewController.m */; };
+		AFDB19EC1522651400B79CF0 /* ChainedAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB19EB1522651400B79CF0 /* ChainedAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFDB19B6152264AC00B79CF0 /* ChainedAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainedAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDB19BA152264AC00B79CF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFDB19BC152264AC00B79CF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFDB19BE152264AC00B79CF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFDB19D8152264EC00B79CF0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFDB19D9152264EC00B79CF0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFDB19DA152264EC00B79CF0 /* ChainedAnimation-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ChainedAnimation-Info.plist"; sourceTree = "<group>"; };
+		AFDB19DB152264EC00B79CF0 /* ChainedAnimation-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChainedAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		AFDB19DD152264EC00B79CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFDB19DF152264EC00B79CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AFDB19E0152264EC00B79CF0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFDB19E1152264EC00B79CF0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFDB19E2152264EC00B79CF0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFDB19EA1522651400B79CF0 /* ChainedAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainedAnimation.h; sourceTree = "<group>"; };
+		AFDB19EB1522651400B79CF0 /* ChainedAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainedAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFDB19B3152264AC00B79CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB19BB152264AC00B79CF0 /* UIKit.framework in Frameworks */,
+				AFDB19BD152264AC00B79CF0 /* Foundation.framework in Frameworks */,
+				AFDB19BF152264AC00B79CF0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFDB19AB152264AC00B79CF0 = {
+			isa = PBXGroup;
+			children = (
+				AFDB19E9152264F000B79CF0 /* ChainedAnimation */,
+				AFDB19D7152264EC00B79CF0 /* Example */,
+				AFDB19B9152264AC00B79CF0 /* Frameworks */,
+				AFDB19B7152264AC00B79CF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFDB19B7152264AC00B79CF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB19B6152264AC00B79CF0 /* ChainedAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFDB19B9152264AC00B79CF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB19BA152264AC00B79CF0 /* UIKit.framework */,
+				AFDB19BC152264AC00B79CF0 /* Foundation.framework */,
+				AFDB19BE152264AC00B79CF0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFDB19D7152264EC00B79CF0 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB19D8152264EC00B79CF0 /* AppDelegate.h */,
+				AFDB19D9152264EC00B79CF0 /* AppDelegate.m */,
+				AFDB19DA152264EC00B79CF0 /* ChainedAnimation-Info.plist */,
+				AFDB19DB152264EC00B79CF0 /* ChainedAnimation-Prefix.pch */,
+				AFDB19DC152264EC00B79CF0 /* InfoPlist.strings */,
+				AFDB19DE152264EC00B79CF0 /* ViewController.xib */,
+				AFDB19E0152264EC00B79CF0 /* main.m */,
+				AFDB19E1152264EC00B79CF0 /* ViewController.h */,
+				AFDB19E2152264EC00B79CF0 /* ViewController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		AFDB19E9152264F000B79CF0 /* ChainedAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB19EA1522651400B79CF0 /* ChainedAnimation.h */,
+				AFDB19EB1522651400B79CF0 /* ChainedAnimation.m */,
+			);
+			path = ChainedAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFDB19B5152264AC00B79CF0 /* ChainedAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDB19D4152264AC00B79CF0 /* Build configuration list for PBXNativeTarget "ChainedAnimation" */;
+			buildPhases = (
+				AFDB19B2152264AC00B79CF0 /* Sources */,
+				AFDB19B3152264AC00B79CF0 /* Frameworks */,
+				AFDB19B4152264AC00B79CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChainedAnimation;
+			productName = ChainedAnimation;
+			productReference = AFDB19B6152264AC00B79CF0 /* ChainedAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFDB19AD152264AC00B79CF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Tight Interactive";
+			};
+			buildConfigurationList = AFDB19B0152264AC00B79CF0 /* Build configuration list for PBXProject "ChainedAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFDB19AB152264AC00B79CF0;
+			productRefGroup = AFDB19B7152264AC00B79CF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFDB19B5152264AC00B79CF0 /* ChainedAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFDB19B4152264AC00B79CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB19E5152264EC00B79CF0 /* InfoPlist.strings in Resources */,
+				AFDB19E6152264EC00B79CF0 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFDB19B2152264AC00B79CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDB19E3152264EC00B79CF0 /* AppDelegate.m in Sources */,
+				AFDB19E7152264EC00B79CF0 /* main.m in Sources */,
+				AFDB19E8152264EC00B79CF0 /* ViewController.m in Sources */,
+				AFDB19EC1522651400B79CF0 /* ChainedAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFDB19DC152264EC00B79CF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDB19DD152264EC00B79CF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFDB19DE152264EC00B79CF0 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDB19DF152264EC00B79CF0 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFDB19D2152264AC00B79CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFDB19D3152264AC00B79CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFDB19D5152264AC00B79CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/ChainedAnimation-Prefix.pch";
+				INFOPLIST_FILE = "Example/ChainedAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFDB19D6152264AC00B79CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/ChainedAnimation-Prefix.pch";
+				INFOPLIST_FILE = "Example/ChainedAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFDB19B0152264AC00B79CF0 /* Build configuration list for PBXProject "ChainedAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDB19D2152264AC00B79CF0 /* Debug */,
+				AFDB19D3152264AC00B79CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDB19D4152264AC00B79CF0 /* Build configuration list for PBXNativeTarget "ChainedAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDB19D5152264AC00B79CF0 /* Debug */,
+				AFDB19D6152264AC00B79CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFDB19AD152264AC00B79CF0 /* Project object */;
+}
