@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)didPressReset:(id)sender;
+- (IBAction)didPressScale:(id)sender;
+- (IBAction)didPressMove:(id)sender;
+
 @end

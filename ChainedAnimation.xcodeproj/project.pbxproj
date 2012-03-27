@@ -16,6 +16,7 @@
 		AFDB19E7152264EC00B79CF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB19E0152264EC00B79CF0 /* main.m */; };
 		AFDB19E8152264EC00B79CF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB19E2152264EC00B79CF0 /* ViewController.m */; };
 		AFDB19EC1522651400B79CF0 /* ChainedAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB19EB1522651400B79CF0 /* ChainedAnimation.m */; };
+		AFDB19EF15226DF400B79CF0 /* ChainedAnimationStep.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDB19EE15226DF400B79CF0 /* ChainedAnimationStep.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		AFDB19E2152264EC00B79CF0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AFDB19EA1522651400B79CF0 /* ChainedAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainedAnimation.h; sourceTree = "<group>"; };
 		AFDB19EB1522651400B79CF0 /* ChainedAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainedAnimation.m; sourceTree = "<group>"; };
+		AFDB19ED15226DF400B79CF0 /* ChainedAnimationStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainedAnimationStep.h; sourceTree = "<group>"; };
+		AFDB19EE15226DF400B79CF0 /* ChainedAnimationStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainedAnimationStep.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 			children = (
 				AFDB19EA1522651400B79CF0 /* ChainedAnimation.h */,
 				AFDB19EB1522651400B79CF0 /* ChainedAnimation.m */,
+				AFDB19ED15226DF400B79CF0 /* ChainedAnimationStep.h */,
+				AFDB19EE15226DF400B79CF0 /* ChainedAnimationStep.m */,
 			);
 			path = ChainedAnimation;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				AFDB19E7152264EC00B79CF0 /* main.m in Sources */,
 				AFDB19E8152264EC00B79CF0 /* ViewController.m in Sources */,
 				AFDB19EC1522651400B79CF0 /* ChainedAnimation.m in Sources */,
+				AFDB19EF15226DF400B79CF0 /* ChainedAnimationStep.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
