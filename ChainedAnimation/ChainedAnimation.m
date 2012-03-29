@@ -26,10 +26,6 @@
     return self;
 }
 
-- (void)dealloc {
-    NSLog(@"ChainedAnimation dealloc");
-}
-
 + (ChainedAnimation*)chainedAnimation {
     return [[ChainedAnimation alloc] init];
 }
@@ -55,14 +51,12 @@
     }
 
     ChainedAnimationStep *animationStep = [_animationSteps objectAtIndex:_currentAnimation];
-    NSLog(@"performing animation step with duration: %f", animationStep.duration);
     [UIView animateWithDuration:animationStep.duration 
                           delay:0.0 
                         options:UIViewAnimationOptionCurveLinear 
                      animations:animationStep.animations 
                      completion:^(BOOL finished) {
                          if (finished) {
-                             NSLog(@"animationFinished");
                              [self performNextAnimationStep];
                          }
                      }];
